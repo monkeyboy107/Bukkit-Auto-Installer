@@ -5,11 +5,11 @@ sudo apt-get update
 sudo apt-get install oracle-java8-installer -y
 #This will create the path
 mkdir ~/minecraft/
-mkdir ~/minecraft/Servers/
-mkdir ~/minecraft/Servers/default
+mkdir ~/minecraft/Server/
+mkdir ~/minecraft/Server/
 sudo bash commandMaker.sh
-cd ~/minecraft/Servers/default/
+cd ~/minecraft/Server/
 #This will download the jar file then run it initially
-wget download-minecraft-server #Replace the download-minecraft-server with the path to the server
-mv jar-name minecraft-server.jar #Replace the jar-name with the jar name that will be on the path to the download
+wget https://www.getbukkit.org/files/craftbukkit-1.10.2-R0.1-SNAPSHOT-latest.jar
+mv craftbukkit-1.10.2-R0.1-SNAPSHOT-latest.jar minecraft-server.jar 
 java -jar minecraft-server.jar

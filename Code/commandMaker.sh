@@ -1,3 +1,3 @@
 #!/bin/bash
-chmod +x defaultMinecraftServer
-sudo cp defaultMinecraftServer /usr/bin
+chmod +x minecraftServer
+sudo cp minecraftServer /usr/bin
