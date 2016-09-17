@@ -1,2 +1,10 @@
 #!/bin/bash
+#########################
+#Programmer: Isaac Kerley
+#Date: 9/16/2016
+#Purpose: This will make the current directory have minecraft server files and run the minecraft server
+#########################
+#Arrays
+#Variables
+########Main code########
 java -jar ~/minecraft/Server/minecraft-server.jar #This will start the server
