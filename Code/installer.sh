@@ -22,4 +22,4 @@ cd ~/minecraft/Server/ #this will go to the current user's home directory then m
 #This will download the jar file then run it initially
 wget https://www.getbukkit.org/files/craftbukkit-1.10.2-R0.1-SNAPSHOT-latest.jar #This will download minecraft server jar
 mv craftbukkit-1.10.2-R0.1-SNAPSHOT-latest.jar minecraft-server.jar #This will rename the jar
-java -jar minecraft-server.jar #This will run the jar
+minecraftServerShortcut #This will run the jar
