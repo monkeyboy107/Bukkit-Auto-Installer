@@ -4,7 +4,6 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java8-installer -y
 #This will put the path in to place
-cd ~/Desktop
 mkdir minecraft
 cd minecraft
 mkdir server
