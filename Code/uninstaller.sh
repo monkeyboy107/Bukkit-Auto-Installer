@@ -23,8 +23,15 @@ rm *
 cd ../playerdata
 rm * 
 cd ../DIM-1
+cd region
+rm *
+cd ../
+rmdir *
+cd ..
 rm * 
 cd ..
+rmdir *
+cd ../
 rmdir *
 cd ../world_the_end
 rm * 
@@ -33,6 +40,11 @@ rm *
 cd ../playerdata
 rm * 
 cd ../DIM-1
+cd region
+rm *
+cd ../
+rmdir *
+cd ..
 rm * 
 cd ..
 rmdir *
