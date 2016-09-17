@@ -1,3 +1,11 @@
 #!/bin/bash
-cd ~/minecraft/Server/
+#########################
+#Programmer: Isaac Kerley
+#Date: 9/16/2016
+#Purpose: This will start the minecraft server under the current user's home directory then in minecraft then in Server folder.
+#########################
+#Arrays
+#Variables
+########Main code########
+cd ~/minecraft/Server/ #This changes the current directory to be the current user's home folder then minecraft then Server folder.
 java -jar minecraft-server.jar #This will start the server
