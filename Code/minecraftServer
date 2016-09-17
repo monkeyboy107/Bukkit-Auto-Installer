@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar minecraft-server.jar #This will start the server
+java -jar ~/minecraft/Server/minecraft-server.jar #This will start the server
