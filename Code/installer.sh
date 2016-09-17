@@ -1,5 +1,6 @@
 #!/bin/bash
 #This will add the java repository and install it
+sudo apt-get update
 sudo apt-get install software-properties-common -y 
 sudo apt-get install python-software-properties -y  
 sudo add-apt-repository ppa:webupd8team/java -y
