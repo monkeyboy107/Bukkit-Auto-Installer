@@ -1,0 +1,6 @@
+bukkit:
+  build: .
+  container_name: Bukkit
+  ports:
+   - 25565:25565
+   - 25575:25575
