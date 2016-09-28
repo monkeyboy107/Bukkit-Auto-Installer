@@ -7,4 +7,5 @@
 #Arrays
 #Variables
 ########Main code########
+echo true>eula.txt
 java -Xmx1G -jar ~/minecraft/Server/minecraft-server.jar -o true #This will start the server
