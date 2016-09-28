@@ -2,10 +2,9 @@
 #########################
 #Programmer: Isaac Kerley
 #Date: 9/16/2016
-#Purpose: This will start the minecraft server under the current user's home directory then in minecraft then in Server folder.
+#Purpose: This will make the current directory have minecraft server files and run the minecraft server
 #########################
 #Arrays
 #Variables
 ########Main code########
-cd ~/minecraft/Server/ #This changes the current directory to be the current user's home folder then minecraft then Server folder.
-java -Xmx1G -jar minecraft-server.jar -o true #This will start the server
+java -Xmx1G -jar ~/minecraft/Server/minecraft-server.jar -o true #This will start the server
