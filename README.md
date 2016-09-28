@@ -4,3 +4,4 @@
 #You will still have to change the EULA of the for the current directory installer bukkit server 
 #The command minecraftServer will make the ~/home/minecraft/Server/ as where the server files will be 
 #The command minecaftServerShortcut makes the current directory as the server directory
+#The cronjob.sh will make the server at boot of the server start the mineraft server
