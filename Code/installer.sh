@@ -8,6 +8,7 @@
 #Variables
 ########Main code########
 #This will add the java repository and install it
+cd=$(pwd) #This will assign cd as what the current directory
 sudo apt-get install python-software-properties -y #This will permit me to use add-apt-repository  
 sudo add-apt-repository ppa:webupd8team/java -y #This will add the webupd8team/java repository. This will permit installing Oracle's Java 
 sudo apt-get update #This will update all the repos. Permitting installing Oracle's Java
@@ -31,3 +32,6 @@ cd ~/minecraft/Server/ #this will go to the current user's home directory then m
 wget https://www.getbukkit.org/files/craftbukkit-1.10.2-R0.1-SNAPSHOT-latest.jar #This will download minecraft server jar
 mv craftbukkit-1.10.2-R0.1-SNAPSHOT-latest.jar minecraft-server.jar #This will rename the jar
 minecraftServerShortcut #This will run the jar
+#This makes eula auto agree for minecraft
+cd $cd #This changes the current directory to the github downloaded
+bash eula-fix.sh #This starts the script that starts changes the EULA file
