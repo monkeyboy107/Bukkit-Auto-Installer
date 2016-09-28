@@ -8,12 +8,11 @@
 #Variables
 ########Main code########
 #This will add the java repository and install it
-sudo apt-get update
-sudo apt-get install software-properties-common -y 
-sudo apt-get install python-software-properties -y  
-sudo add-apt-repository ppa:webupd8team/java -y
-sudo apt-get update
-sudo apt-get install oracle-java8-installer -y
+sudo apt-get install python-software-properties -y #This will permit me to use add-apt-repository  
+sudo add-apt-repository ppa:webupd8team/java -y #This will add the webupd8team/java repository. This will permit installing Oracle's Java 
+sudo apt-get update #This will update all the repos. Permitting installing Oracle's Java
+sudo echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections #This will allow java to be installed without manually going through debconf
+sudo apt-get install oracle-java8-installer -y #This will install Oracle's Java version 8
 clear
 wait 5
 #This will create the path
