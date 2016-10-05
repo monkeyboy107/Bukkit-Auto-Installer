@@ -16,12 +16,6 @@ sudo echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select tru
 sudo apt-get install oracle-java8-installer -y #This will install Oracle's Java version 8
 clear
 wait 5
-#This will create the path
-mkdir ~/minecraft/
-mkdir ~/minecraft/Server/
-mkdir ~/minecraft/Server/
-sudo bash commandMaker.sh
-cd ~/minecraft/Server/
 clear
 #This will create the path
 mkdir ~/minecraft/ #This will make the minecraft folder in the current user's home directory
