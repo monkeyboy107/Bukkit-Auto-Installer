@@ -15,6 +15,6 @@ sudo add-apt-repository ppa:webupd8team/java -y #This will add the webupd8team/j
 sudo apt-get update #This will update all the repos. Permitting installing Oracle's Java
 sudo apt-get install oracle-java8-installer -y #This will install Oracle's Java version 8
 #This will download the jar file then run it initially
-wget https://www.getbukkit.org/files/craftbukkit-1.10.2-R0.1-SNAPSHOT-latest.jar #This will download minecraft server jar
-mv craftbukkit-1.10.2-R0.1-SNAPSHOT-latest.jar minecraft-server.jar #This will rename the jar
+wget https://ci.getbukkit.org/job/CraftBukkit/lastSuccessfulBuild/artifact/craftbukkit-1.11.1.jar #This will download minecraft server jar
+mv craftbukkit-1.11.1.jar minecraft-server.jar #This will rename the jar
 java -jar minecraft-server.jar #This will run the jar
