@@ -24,7 +24,7 @@ sudo bash commandMaker.sh #This will start the commandMaker.sh script
 cd ~/minecraft/Server/ #this will go to the current user's home directory then minecraft then Server
 #This will download the jar file then run it initially
 wget https://ci.getbukkit.org/job/CraftBukkit/lastSuccessfulBuild/artifact/craftbukkit-1.11.2.jar #This will download minecraft server jar
-mv craftbukkit-1.11.1.jar minecraft-server.jar #This will rename the jar
+mv craftbukkit-1.11.2.jar minecraft-server.jar #This will rename the jar
 minecraftServerShortcut #This will run the jar
 #This makes eula auto agree for minecraft
 cd $cd #This changes the current directory to the github downloaded
