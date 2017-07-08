@@ -8,6 +8,7 @@
 #Variables
 ########Main code########
 #This will add the java repository and install it
+python jar-getter.py
 cd=$(pwd) #This will assign cd as what the current directory
 sudo apt-get install python-software-properties -y #This will permit me to use add-apt-repository  
 sudo add-apt-repository ppa:webupd8team/java -y #This will add the webupd8team/java repository. This will permit installing Oracle's Java 
@@ -22,7 +23,6 @@ mkdir ~/minecraft/ #This will make the minecraft folder in the current user's ho
 mkdir ~/minecraft/Server/ #This will make the Server folder in the current user's home directory under minecraft
 sudo bash commandMaker.sh #This will start the commandMaker.sh script
 cd ~/minecraft/Server/ #this will go to the current user's home directory then minecraft then Server
-python jar-getter.py
 #This will download the jar file then run it initially
 minecraftServerShortcut #This will run the jar
 #This makes eula auto agree for minecraft
