@@ -27,7 +27,7 @@ class getWeb (object):
         return url
     def download(self, jar):
         print "Downloading"
-        urllib.urlretrieve(jar, "minecraft.jar")
+        urllib.urlretrieve(jar, "minecraft-server.jar")
         print "Done downloading"
 
 def main():
