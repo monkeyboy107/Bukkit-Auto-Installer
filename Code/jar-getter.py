@@ -29,7 +29,6 @@ def main():
     web = getWeb()
     url = web.getLink(url)
     jar = web.getJar(url)
-    print(jar)
     exit()
 
 if __name__ == '__main__':
