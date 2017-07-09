@@ -29,3 +29,4 @@ minecraftServerShortcut #This will run the jar
 #This makes eula auto agree for minecraft
 cd $cd #This changes the current directory to the github downloaded
 bash eula-fix.sh #This starts the script that starts changes the EULA file
+v
