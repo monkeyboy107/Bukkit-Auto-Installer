@@ -16,7 +16,9 @@ sudo apt-get update #This will update all the repos. Permitting installing Oracl
 sudo echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections #This will allow java to be installed without manually going through debconf
 sudo apt-get install oracle-java8-installer -y #This will install Oracle's Java version 8
 sudo apt-get install python-pip -y #This installs pip
-pip install requests[security]
+sudo apt-get install python-dev libssl-dev libffi-dev -y
+sudo pip2.7 install -U pyopenssl==0.13.1 pyasn1 ndg-httpsclient -y
+pip install requests[security] urllib3 six pyopenssl ndg-httpsclient pyasn1 cryptography
 clear
 wait 5
 clear
