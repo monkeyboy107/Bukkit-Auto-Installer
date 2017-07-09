@@ -24,8 +24,7 @@ wait 5
 clear
 python jar-getter.py
 #This will create the path
-mkdir ~/minecraft/ #This will make the minecraft folder in the current user's home directory
-mkdir ~/minecraft/server/ #This will make the Server folder in the current user's home directory under minecraft
+bash dirMaker.sh
 mv minecraft-server.jar ~/minecraft/server
 sudo bash commandMaker.sh #This will start the commandMaker.sh script
 cd ~/minecraft/server/ #this will go to the current user's home directory then minecraft then Server
