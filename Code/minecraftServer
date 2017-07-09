@@ -7,5 +7,5 @@
 #Arrays
 #Variables
 ########Main code########
-cd ~/minecraft/Server/ #This changes the current directory to be the current user's home folder then minecraft then Server folder.
+cd ~/minecraft/server/ #This changes the current directory to be the current user's home folder then minecraft then Server folder.
 java -Xmx1G -jar minecraft-server.jar -o true #This will start the server
