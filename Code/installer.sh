@@ -21,7 +21,7 @@ python jar-getter.py
 #This will create the path
 mkdir ~/minecraft/ #This will make the minecraft folder in the current user's home directory
 mkdir ~/minecraft/server/ #This will make the Server folder in the current user's home directory under minecraft
-cp minecraft-server.jar ~/minecraft/server
+mv minecraft-server.jar ~/minecraft/server
 sudo bash commandMaker.sh #This will start the commandMaker.sh script
 cd ~/minecraft/server/ #this will go to the current user's home directory then minecraft then Server
 #This will download the jar file then run it initially
@@ -29,4 +29,3 @@ minecraftServerShortcut #This will run the jar
 #This makes eula auto agree for minecraft
 cd $cd #This changes the current directory to the github downloaded
 bash eula-fix.sh #This starts the script that starts changes the EULA file
-v
