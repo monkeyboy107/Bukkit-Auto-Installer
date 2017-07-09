@@ -9,11 +9,14 @@
 ########Main code########
 #This will add the java repository and install it
 cd=$(pwd) #This will assign cd as what the current directory
-sudo apt-get install python-software-properties -y #This will permit me to use add-apt-repository  
+sudo apt-get update
+sudo apt-get install python-software-properties -y #This will permit me to use add-apt-repository
 sudo add-apt-repository ppa:webupd8team/java -y #This will add the webupd8team/java repository. This will permit installing Oracle's Java 
 sudo apt-get update #This will update all the repos. Permitting installing Oracle's Java
 sudo echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections #This will allow java to be installed without manually going through debconf
 sudo apt-get install oracle-java8-installer -y #This will install Oracle's Java version 8
+sudo apt-get install python-pip -y #This installs pip
+pip install requests
 clear
 wait 5
 clear

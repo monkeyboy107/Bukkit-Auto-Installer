@@ -24,6 +24,7 @@ class getWeb (object):
         split = split.split('"')
         url = split[3]
         r.close()
+        print url
         return url
     def download(self, jar):
         print "Downloading"
