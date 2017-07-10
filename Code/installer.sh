@@ -17,7 +17,8 @@ sudo echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select tru
 sudo apt-get install oracle-java8-installer -y #This will install Oracle's Java version 8
 sudo apt-get install python-pip -y #This installs pip
 sudo apt-get install python-dev libssl-dev libffi-dev -y
-pip install -U pyopenssl==0.13.1 pyasn1 ndg-httpsclient requests[security] urllib3 six pyopenssl ndg-httpsclient pyasn1 cryptography
+pip install requests
+pip install pyopenssl ndg-httpsclient pyasn1
 clear
 wait 5
 clear
