@@ -20,8 +20,6 @@ sudo apt-get install python-dev libssl-dev libffi-dev -y
 pip install requests
 pip install pyopenssl ndg-httpsclient pyasn1
 clear
-wait 5
-clear
 python jar-getter.py
 #This will create the path
 bash dirMaker.sh
