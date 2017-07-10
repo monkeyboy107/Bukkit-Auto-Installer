@@ -17,9 +17,8 @@ sudo echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select tru
 sudo apt-get install oracle-java8-installer -y #This will install Oracle's Java version 8
 sudo apt-get install python-pip -y #This installs pip
 sudo apt-get install python-dev libssl-dev libffi-dev -y
-pip install requests
-pip install pyopenssl ndg-httpsclient pyasn1
-clear
+sudo pip install requests
+sudo pip install pyopenssl ndg-httpsclient pyasn1
 python jar-getter.py
 #This will create the path
 bash dirMaker.sh
