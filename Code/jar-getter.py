@@ -9,20 +9,22 @@ class getWeb (object):
         print "Getting link"
         r = requests.session().get(url)
         split = r.text.split('<a')
-        split = split[10]
+        split = split[20]
         split = str(split)
         split = split.split('"')
         url = split[1]
         r.close()
+        print url
         return url
     def getJar(self, url):
         print "Getting jar link"
         r = requests.session().get(url)
         split = r.text.split('\n')
-        split = split[6]
-        split = str(split)
+        split = split[104]
         split = split.split('"')
-        url = split[3]
+        print split
+        split = split[1]
+        url = split
         r.close()
         print url
         return url
@@ -37,7 +39,7 @@ def main():
     url = web.getLink(url)
     jar = web.getJar(url)
     web.download(jar)
-    exit()
+    #exit()
 
 if __name__ == '__main__':
     main()
