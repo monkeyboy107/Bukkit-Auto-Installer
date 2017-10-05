@@ -7,4 +7,4 @@
 #Arrays
 #Variables
 ########Main code########
-java -Xmx1G -jar ~/minecraft/server/minecraft-server.jar -o true #This will start the server
+java -Xmx1G -jar /opt/minecraft/server/minecraft-server.jar -o true #This will start the server

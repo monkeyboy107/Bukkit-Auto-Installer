@@ -21,12 +21,12 @@ sudo pip install requests
 sudo pip install pyopenssl ndg-httpsclient pyasn1
 python jar-getter.py
 #This will create the path
-bash dirMaker.sh
-mv minecraft-server.jar ~/minecraft/server
-sudo bash commandMaker.sh #This will start the commandMaker.sh script
-cd ~/minecraft/server/ #this will go to the current user's home directory then minecraft then Server
+bash ../dir-maker.sh
+mv minecraft-server.jar /opt/minecraft/server
+sudo bash ../command-maker.sh #This will start the commandMaker.sh script
+cd /opt/minecraft/server/ #this will go to the current user's home directory then minecraft then Server
 #This will download the jar file then run it initially
 minecraftServerShortcut #This will run the jar
 #This makes eula auto agree for minecraft
 cd $cd #This changes the current directory to the github downloaded
-bash eula-fix.sh #This starts the script that starts changes the EULA file
+bash ../eula-fix.sh #This starts the script that starts changes the EULA file
