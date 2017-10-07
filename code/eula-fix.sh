@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-cd /opt/minecraft/server/
-echo eula=true>eula.txt #Over rights the eula file with being true
+echo eula=true>/opt/minecraft/server/eula.txt #Over rights the eula file with being true

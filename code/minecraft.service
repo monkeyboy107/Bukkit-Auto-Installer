@@ -1,0 +1,9 @@
+[Unit]
+Description=Minecraft Service
+
+[Services]
+Type=simple
+User=minecraft
+ExecStart=/usr/bin/minecraft
+
+
