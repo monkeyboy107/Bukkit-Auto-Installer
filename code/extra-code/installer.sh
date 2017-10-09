@@ -6,22 +6,22 @@ python which-distro.py
 distro=$(cat distro.txt)
 if [ "centos" = "$distro" ]
 then
-    bash installer.sh
     cd CentOS
+    bash installer.sh
 
 elif [ "ubuntu" = "$distro" ]
 then
-    bash installer.sh
     cd Ubuntu
+    bash installer.sh
 
 elif [ "fedora" = "$distro" ]
 then
-    bash installer.sh
     cd Fedora
+    bash installer.sh
 
 elif [ "debian" = "$distro" ]
 then
-    bash installer.sh
     cd Debian
+    bash installer.sh
 
 fi
