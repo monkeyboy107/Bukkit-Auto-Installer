@@ -1,19 +1,18 @@
 #!/bin/bash
 echo installing minecraft server
-python which-distro.py
-distro=$(cat distro.txt)
+python which-distro..py
+distro=$(cat distro..txt)
 if [ "centos" = "$distro" ]
 then
-    bash ./CentOS/install.sh
+    bash ../CentOS/install.sh
 elif [ "ubuntu" = "$distro" ]
 then
-    bash ./Ubuntu/install.sh
-    
+    bash ../Ubuntu/install.sh
 elif [ "fedora" = "$distro" ]
 then
-    bash ./Fedora/install.sh
+    bash ../Fedora/install.sh
 elif [ "debian" = "$distro" ]
 then
-    bash ./Debian/install.sh
+    bash ../Debian/install.sh
 
 fi
