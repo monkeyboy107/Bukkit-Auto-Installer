@@ -1,7 +1,7 @@
 #!/bin/bash
 echo installing minecraft server
-python which-distro..py
-distro=$(cat distro..txt)
+python which-distro.py
+distro=$(cat distro.txt)
 if [ "centos" = "$distro" ]
 then
     bash ../CentOS/install.sh

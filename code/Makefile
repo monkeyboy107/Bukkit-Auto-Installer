@@ -1,4 +1,4 @@
 all:
     make install
 install:
-    installer.sh
+    sudo bash ./extra-code/installer.sh
