@@ -7,12 +7,13 @@ for i in range(len(os)):
     if os[i] == 'centos':
         os = 'centos'
         break
-    if os[i] == 'fedora':
+    elif os[i] == 'fedora':
         os = 'fedora'
         break
-    if os[i] == 'Ubuntu':
+    elif os[i] == 'Ubuntu':
         os = 'ubuntu'
         break
+    elif os[i]== 'debian'
 if os != 'unknown':
     file = open('distro.txt', 'wr')
     file.write(os)
