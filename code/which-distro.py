@@ -13,7 +13,7 @@ for i in range(len(os)):
     elif os[i] == 'Ubuntu':
         os = 'ubuntu'
         break
-    elif os[i]== 'debian'
+    elif os[i]== 'debian':
 if os != 'unknown':
     file = open('distro.txt', 'wr')
     file.write(os)
