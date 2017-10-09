@@ -14,6 +14,8 @@ for i in range(len(os)):
         os = 'ubuntu'
         break
     elif os[i]== 'debian':
+        os = 'debian'
+        break
 if os != 'unknown':
     file = open('distro.txt', 'wr')
     file.write(os)
