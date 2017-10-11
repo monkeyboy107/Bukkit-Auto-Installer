@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo yum install -y epel-release.noarch
-sudo yum install python-pip
+sudo yum install -y python-pip
 sudo pip install requests
 sudo yum install -y java
 cd ../
