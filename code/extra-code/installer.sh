@@ -2,7 +2,7 @@
 echo installing minecraft server
 cd ..
 ls
-bash command-maker.sh
+sudo bash command-maker.sh
 python which-distro.py
 distro=$(cat distro.txt)
 if [ "centos" = "$distro" ]

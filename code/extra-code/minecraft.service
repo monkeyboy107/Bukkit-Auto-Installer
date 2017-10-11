@@ -5,5 +5,8 @@ Description=Minecraft Service
 Type=simple
 User=minecraft
 ExecStart=/usr/bin/minecraft
+ExecStop=/usr/bin/minecraft-stop
 
+[Install]
+WantedBy=multi-user.target
 
