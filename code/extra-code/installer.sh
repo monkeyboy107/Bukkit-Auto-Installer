@@ -2,7 +2,6 @@
 echo Installing minecraft server
 sudo bash command-maker.sh
 sudo bash user-add
-sudo bash minecraft-server-download.sh
 cd ..
 ls
 python which-distro.py
@@ -28,3 +27,5 @@ then
     bash installer.sh
 
 fi
+sudo bash minecraft-server-download.sh
+
