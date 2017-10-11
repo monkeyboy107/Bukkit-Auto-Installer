@@ -31,3 +31,4 @@ cd ../
 cd extra-code
 sudo bash minecraft-server-download.sh
 sudo bash chown.sh
+sudo chown minecraft:minecraft /opt/minecraft/server/minecraft-server.jar
