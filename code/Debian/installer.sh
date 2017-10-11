@@ -7,7 +7,6 @@
 #Arrays
 #Variables
 gd=$(pwd)                                                                                                         #This will assign gd as what the git directory
-md=$(echo /opt/minecraft/server/)
 #######################################Main code###################################################################
                                                                                                                   #This will add the java repository and install it
 sudo apt-get update
@@ -20,10 +19,6 @@ sudo apt-get install python-pip -y                                              
 sudo apt-get install python-dev libssl-dev libffi-dev -y
 sudo pip install requests
 sudo pip install pyopenssl ndg-httpsclient pyasn1
-python ../jar-getter.py                                                                                           #This will download the jar file then run it initially
-                                                                                                                  #This will create the path
-bash ../extra-code/dir-maker.sh
-mv minecraft-server.jar $md
 sudo bash ../command-maker.sh                                                                                     #This will start the commandMaker.sh script
 cd $md                                                                                                            #This will go to the current minecraft directory
 minecraftServerShortcut                                                                                           #This will run the jar
