@@ -2,10 +2,11 @@
 Description=Minecraft Service
 
 [Services]
-Type=forking
+Type=simple
 User=minecraft
 ExecStart=/usr/bin/minecraft
-ExecStop=/usr/bin/minecraft-stop
+Restart=always
+RestartSec=10s
 
 [Install]
 WantedBy=multi-user.target

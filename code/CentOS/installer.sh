@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo pip install requests
 sudo yum install -y java
 cd ../
 cd extra-code
