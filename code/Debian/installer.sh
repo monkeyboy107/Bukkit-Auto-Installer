@@ -30,5 +30,5 @@ minecraftServerShortcut                                                         
 
 cd $gd                                                                                                            #This changes the current directory to the github downloaded directory
 cd extra-code
-bash ../extra-code/eula-fix.sh                                                                                    #This starts the script that starts changes the EULA file
+bash eula-fix.sh                                                                                                  #This starts the script that starts changes the EULA file
 bash service-handler.sh
