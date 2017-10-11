@@ -7,4 +7,4 @@ cd ../
 cd extra-code
 bash eula-fix.sh
 bash service-handler.sh
-
+sudo bash minecraft-server-download.sh
