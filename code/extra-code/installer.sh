@@ -1,6 +1,7 @@
 #!/bin/bash
 echo Installing minecraft server
 sudo bash command-maker.sh
+sudo bash user-add
 sudo bash minecraft-server-download.sh
 cd ..
 ls
