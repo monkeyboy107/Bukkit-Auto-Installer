@@ -27,5 +27,6 @@ then
     bash installer.sh
 
 fi
+cd extra-code
 sudo bash minecraft-server-download.sh
-
+sudo bash chown.sh

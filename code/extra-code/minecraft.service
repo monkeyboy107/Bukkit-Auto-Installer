@@ -1,5 +1,5 @@
 [Unit]
-Description=Minecraft Service
+Description=Minecraft Server Service
 
 [Services]
 Type=simple
