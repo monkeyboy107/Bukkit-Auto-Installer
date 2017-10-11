@@ -6,9 +6,10 @@
 ###################################################################################################################
 #Arrays
 #Variables
+gd=$(pwd)                                                                                                         #This will assign gd as what the git directory
+md=$(echo /opt/minecraft/server/)
 #######################################Main code###################################################################
                                                                                                                   #This will add the java repository and install it
-cd=$(pwd)                                                                                                         #This will assign cd as what the current directory
 sudo apt-get update
 sudo apt-get install python-software-properties -y                                                                #This will permit me to use add-apt-repository
 sudo add-apt-repository ppa:webupd8team/java -y                                                                   #This will add the webupd8team/java repository. This will permit installing Oracle's Java 
@@ -19,14 +20,15 @@ sudo apt-get install python-pip -y                                              
 sudo apt-get install python-dev libssl-dev libffi-dev -y
 sudo pip install requests
 sudo pip install pyopenssl ndg-httpsclient pyasn1
-python ../jar-getter.py
+python ../jar-getter.py                                                                                           #This will download the jar file then run it initially
                                                                                                                   #This will create the path
 bash ../extra-code/dir-maker.sh
 mv minecraft-server.jar /opt/minecraft/server
 sudo bash ../command-maker.sh                                                                                     #This will start the commandMaker.sh script
-cd /opt/minecraft/server/                                                                                         #this will go to the current user's home directory then minecraft then Server
-                                                                                                                  #This will download the jar file then run it initially
+cd $md                                                                                                            #This will go to the current minecraft directory
 minecraftServerShortcut                                                                                           #This will run the jar
-                                                                                                                  #This makes eula auto agree for minecraft
-cd $cd                                                                                                            #This changes the current directory to the github downloaded directory
+
+cd $gd                                                                                                            #This changes the current directory to the github downloaded directory
+cd extra-code
 bash ../extra-code/eula-fix.sh                                                                                    #This starts the script that starts changes the EULA file
+bash service-handler.sh
