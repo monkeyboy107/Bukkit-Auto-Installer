@@ -13,7 +13,7 @@ md=$(echo /opt/minecraft/server/)
 sudo apt-get update
 cd $gd
 cd Debian
-sudo bash java-adder 
+sudo bash java-adder.sh
 sudo apt-get update                                                                                               #This will update all the repos. Permitting installing Oracle's Java
 sudo apt-get install oracle-java8-installer -y                                                                    #This will install Java
 sudo apt-get install python-pip -y                                                                                #This installs pip
