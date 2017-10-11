@@ -4,7 +4,7 @@ Description=Minecraft Service
 [Services]
 Type=simple
 User=minecraft
-ExecStart=/usr/bin/minecraft
+ExecStart=/usr/bin/minecraft-server
 Restart=always
 RestartSec=10s
 
