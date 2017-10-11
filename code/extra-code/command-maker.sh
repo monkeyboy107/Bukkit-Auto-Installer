@@ -7,6 +7,7 @@
 #Arrays
 #Variables
 #################Main code#################
+echo Making commands
 chmod +x minecraft-server                  #This permits the code to be executable
 sudo cp minecraft-server /usr/bin          #This will make it an actual command that you can use
 chmod +x minecraft-server-shortcut         #This permits the code to be executable
