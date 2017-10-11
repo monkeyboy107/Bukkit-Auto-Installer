@@ -2,7 +2,7 @@
 Description=Minecraft Service
 
 [Services]
-Type=simple
+Type=forking
 User=minecraft
 ExecStart=/usr/bin/minecraft
 ExecStop=/usr/bin/minecraft-stop
